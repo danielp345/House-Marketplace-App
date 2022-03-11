@@ -328,8 +328,14 @@ button {
 .swiperSlideDiv {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 40vh;
 }
+
+/* @media (min-width: 1024px) {
+  .swiperSlideDiv {
+    height: 80vh;
+  }
+} */
 
 .swiperSlideImg {
   width: 100%;
